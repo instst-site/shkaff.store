@@ -1,2 +1,2 @@
-User-agent: *
+﻿User-agent: *
 Sitemap: https://shkaff.store/sitemap.xml
