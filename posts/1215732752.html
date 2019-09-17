@@ -93,9 +93,15 @@
 								<div class="main-sec__contacts-wrap" id="js-cont-list">
 									<div class="main-sec__contacts-btn" id="js-cont-list-btn" onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
 									<ul class="main-sec__contacts-list">
-										<li><a href="https://wa.me/79234567890" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
-										<li><a href="mailto:maik11107@mail.ru"><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail</a></li>
-										<li><a href="https://www.instagram.com/mikhail__zabolotskiy" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+										<li><a href="https://wa.me/79234567890" 
+										onclick="ym(55322122, 'reachGoal', 'WhatsApp', goalParams); return false;"
+										target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
+										<li><a href="viber://add?number=79261875212" 
+										onclick="ym(55322122, 'reachGoal', 'Viber', goalParams); return false;"
+										target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i> Viber</a></li>
+										<li><a href="https://www.instagram.com/mikhail__zabolotskiy" 
+										onclick="ym(55322122, 'reachGoal', 'Instagram', goalParams); return false;"
+										target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
 									</ul>
 								</div>
 							</div>
@@ -150,6 +156,7 @@
 							</div>
 						</div>
 						<aside class="article-bar">
+							<h2 class="article-more__title">ПОХОЖИЕ</h2>
 							<div class="article-bar__tagsgroupe" id="js-tags">
 								<nav class="article-bar__tags">
 									<h3 class="article-bar__tags-title">
@@ -202,7 +209,7 @@
 						</aside>
 					</div>
 					<section class="article-more">
-						<h2 class="article-more__title">Это интересно</h2>
+						<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
 						<div class="article-more__list">
 							<a href="./472692703.html" class="article-more__item">
 								<div class="article-more__item-pic">
@@ -289,7 +296,9 @@
 			<div class="banner__main" id="js-banner-main">
 				<div class="banner__main-title">Свяжитесь с нами</div>
 				<div class="banner__main-row">
-					<a href="https://wa.me/79234567890" target="_blank" class="banner__main-item">
+					<a href="https://wa.me/79234567890" target="_blank" 
+					onclick="ym(55322122, 'reachGoal', 'WhatsApp', goalParams); return false;"
+					class="banner__main-item">
 						<div class="banner__main-item-ring"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
 						<div class="banner__main-item-txt">WhatsApp</div>
 					</a>
@@ -299,20 +308,20 @@
 						<div class="banner__main-item-txt">Telegram</div>
 					</div>
 
-					<div class="banner__main-item disable">
+					<a href="viber://add?number=79261875212" target="_blank" 
+					onclick="ym(55322122, 'reachGoal', 'Viber', goalParams); return false;"
+					class="banner__main-item">
 						<div class="banner__main-item-ring"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
 						<div class="banner__main-item-txt">Viber</div>
-					</div>
+					</a>
 
-					<a href="https://www.instagram.com/mikhail__zabolotskiy" target="_blank" class="banner__main-item">
+					<a href="https://www.instagram.com/mikhail__zabolotskiy" target="_blank" 
+					onclick="ym(55322122, 'reachGoal', 'Instagram', goalParams); return false;"
+					class="banner__main-item">
 						<div class="banner__main-item-ring"><i class="fa fa-instagram" aria-hidden="true"></i></div>
 						<div class="banner__main-item-txt">Instagram</div>
 					</a>
 
-					<a href="mailto:maik11107@mail.ru" target="_blank" class="banner__main-item">
-						<div class="banner__main-item-ring"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-						<div class="banner__main-item-txt">E-mail</div>
-					</a>
 
 				</div>
 			</div>
